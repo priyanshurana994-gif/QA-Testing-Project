@@ -1,0 +1,25 @@
+{
+    "info": {
+        "name": "API Testing Collection"
+    },
+    "item": [
+        {
+            "name": "Get Users",
+            "request": {
+                "method": "GET",
+                "url": "https://reqres.in/api/users?page=2"
+            }
+        },
+        {
+            "name": "Login",
+            "request": {
+                "method": "POST",
+                "url": "https://reqres.in/api/login",
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\"email\": \"eve.holt@reqres.in\", \"password\": \"cityslicka\"}"
+                }
+            }
+        }
+    ]
+}
